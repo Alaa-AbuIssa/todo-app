@@ -2,9 +2,10 @@
 @import '~@blueprintjs/core/lib/css/blueprint.css';
 @import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
 
+
 .header {
   padding-top: 3vh;
-  background-color: #8FC1D4;
+  background-color: #8FC1D4 !important;
   height: 100px;
 
   .nav {
@@ -30,6 +31,7 @@
 }
 
 .mainsec {
+  background-color: #8FC1D4;
   margin: 5%;
   .mainCards {
     margin: 5% !important;
